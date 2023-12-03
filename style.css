@@ -1,0 +1,71 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+div#int a{
+    position: absolute;
+    color: #611b1a91;
+    text-align: center;
+    top: 90%;
+    left: 50%;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+div#int a:hover{
+    color: white;
+}
+body{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-image: radial-gradient(rgb(95, 13, 13),rgb(0, 0, 0));
+}
+div#calculadora{
+    position: absolute;
+    background-color: #611B1A;
+    background-image: linear-gradient(rgb(151, 16, 16),rgba(255, 174, 0, 0.719));
+    background-image: url('https://images.pexels.com/photos/861443/pexels-photo-861443.jpeg');
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border-radius: 4px;
+    background-attachment: fixed;
+    background-size:cover;
+}
+p{
+    background-color: white;
+    width: 224px;
+    height: 50px;
+    margin: auto;
+    margin-bottom: 10px;
+    text-align: right;
+    font-size: 2em;
+}
+button.botao{
+    border: none;
+    width: 50px;
+    height: 50px;
+    margin: 3px;
+    cursor: pointer;
+    box-shadow: 1px 2px 3px;
+    border-radius: 3px;
+}
+button:hover{
+    background-color: rgb(238, 213, 180);
+    
+}
+button#igual{
+    height: 105px;
+}
+button#zero{
+    width: 105px;
+}
+#res{
+    overflow :  hidden 
+}
